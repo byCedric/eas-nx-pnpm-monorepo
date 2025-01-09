@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Cat Facts",
+    "slug": "cats",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/a6a590e7-f390-4003-881b-c8ae71dd10b2"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.exiong.cats"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.exiong.cats",
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "serviceWorker": {
+        "navigationPreload": true
+      },
+      "build": {
+        "publicUrl": "nx-expo-monorepo"
+      }
+    },
+    "plugins": [
+      [
+        "@config-plugins/detox",
+        {
+          "skipProguard": false,
+          "subdomains": ["10.0.2.2", "localhost"]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a6a590e7-f390-4003-881b-c8ae71dd10b2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

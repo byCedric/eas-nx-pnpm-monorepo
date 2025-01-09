@@ -1,0 +1,7 @@
+{
+  "name": "cats",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/cats/src",
+  "projectType": "application",
+  "tags": []
+}

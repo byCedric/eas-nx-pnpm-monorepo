@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-expo-monorepo/models": ["libs/models/src/index.ts"],
+      "@nx-expo-monorepo/queries/test-wrapper": [
+        "libs/queries/test-wrapper/src/index.ts"
+      ],
+      "@nx-expo-monorepo/queries/use-cat-fact": [
+        "libs/queries/use-cat-fact/src/index.ts"
+      ],
+      "@nx-expo-monorepo/queries/use-dog-fact": [
+        "libs/queries/use-dog-fact/src/index.ts"
+      ],
+      "@nx-expo-monorepo/states/cat": ["libs/states/cat/src/index.ts"],
+      "@nx-expo-monorepo/states/dog": ["libs/states/dog/src/index.ts"],
+      "@nx-expo-monorepo/ui": ["libs/ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

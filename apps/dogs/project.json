@@ -1,0 +1,8 @@
+{
+  "name": "dogs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/dogs/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {}
+}

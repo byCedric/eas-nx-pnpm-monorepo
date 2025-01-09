@@ -1,0 +1,8 @@
+# Add files here to ignore them from prettier formatting
+
+/dist
+/coverage
+.expo/
+web-build/
+/.nx/cache
+/.nx/workspace-data
