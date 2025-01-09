@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "homepage": "https://github.com/xiongemi/nx-expo-monorepo",
+  "packageManager": "pnpm@9.15.3",
   "scripts": {
     "predeploy": "nx export-web cats",
     "deploy": "gh-pages -d apps/cats/dist"

@@ -38,8 +38,9 @@
     "react-native-screens": "*",
     "tslib": "*"
   },
+  "packageManager": "pnpm@9.15.3",
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/nx-eas-build-pre-install.mjs . apps/dogs && cp pnpm-lock.yaml apps/dogs",
+    "eas-build-pre-install": "corepack enable; cd ../../ && node tools/scripts/nx-eas-build-pre-install.mjs . apps/dogs && cp pnpm-lock.yaml apps/dogs",
     "eas-build-post-install": "cd ../../ && node tools/scripts/nx-eas-build-post-install.mjs . apps/dogs"
   },
   "devDependencies": {
