@@ -39,7 +39,7 @@
     "tslib": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/nx-eas-build-pre-install.mjs . apps/dogs && cp package-lock.json apps/dogs",
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/nx-eas-build-pre-install.mjs . apps/dogs && cp pnpm-lock.yaml apps/dogs",
     "eas-build-post-install": "cd ../../ && node tools/scripts/nx-eas-build-post-install.mjs . apps/dogs"
   },
   "devDependencies": {
