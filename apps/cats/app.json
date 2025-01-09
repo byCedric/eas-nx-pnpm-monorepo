@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Cat Facts",
-    "slug": "cats",
+    "slug": "nx-pnpm-monorepo-cats",
     "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,21 +11,18 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/a6a590e7-f390-4003-881b-c8ae71dd10b2"
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.exiong.cats"
+      "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.exiong.cats",
-      "versionCode": 3
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -46,11 +43,6 @@
         }
       ]
     ],
-    "extra": {
-      "eas": {
-        "projectId": "a6a590e7-f390-4003-881b-c8ae71dd10b2"
-      }
-    },
     "runtimeVersion": {
       "policy": "sdkVersion"
     }
